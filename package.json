@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "firebase": "^3.6.8",
@@ -15,7 +17,8 @@
     "react-native-image-picker": "latest",
     "react-native-invertible-scroll-view": "^1.0.0",
     "react-native-vector-icons": "^4.0.0",
-    "react-navigation": "^1.0.0-beta.1"
+    "react-navigation": "^1.0.0-beta.1",
+    "snyk": "^1.316.2"
   },
   "devDependencies": {
     "babel-jest": "18.0.0",
@@ -26,5 +29,6 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "snyk": true
 }
