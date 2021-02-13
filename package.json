@@ -15,7 +15,7 @@
     "react-native-image-picker": "latest",
     "react-native-invertible-scroll-view": "^1.0.0",
     "react-native-vector-icons": "^4.0.0",
-    "react-navigation": "^1.0.0-beta.1"
+    "react-navigation": "^1.0.0"
   },
   "devDependencies": {
     "babel-jest": "18.0.0",
